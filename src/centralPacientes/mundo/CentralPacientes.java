@@ -256,7 +256,7 @@ public class CentralPacientes {
         int hombres = 0;
         for (int i = 0; i < darPacientes().size(); i++) {
             if (darPacientes().get(i).darSexo()==1){
-                hombres=+1;
+                hombres+=1;
             }
         }
         return hombres;
@@ -270,7 +270,7 @@ public class CentralPacientes {
             int mujeres = 0;
             for (int i = 0; i < darPacientes().size(); i++) {
                 if (darPacientes().get(i).darSexo()==2){
-                    mujeres=+1;
+                    mujeres+=1;
                 }
             }
             return mujeres;
